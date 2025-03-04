@@ -1,0 +1,104 @@
+@media(max-width:1030px) {
+
+    .home .home-banner-1,
+    .home .home-banner-2 {
+        background-position: 55% center;
+        min-height: 550px;
+    }
+
+    .home .home-banner .home-banner-text {
+        transform: translate(-105%, -30%);
+    }
+
+    .home .home-banner .home-banner-text h1 {
+        font-size: 4rem;
+    }
+
+    /* Offer section */
+    .offers .offer-box .offer-info .heading-bigger {
+        font-size: 3rem;
+    }
+
+    /* Special Section */
+    .special .countdown-container .countdown-counter li {
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media(max-width:991px) {
+    .home .home-banner .home-banner-text {
+        transform: translate(-85%, -30%);
+    }
+
+    /* Special Section */
+    .special .countdown-container {
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media(max-width:767px) {
+
+    .home .home-banner-1,
+    .home .home-banner-2 {
+        background-position: 50% center;
+        min-height: 450px;
+    }
+
+    .home .home-banner .home-banner-text {
+        text-align: center;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+
+    .home .home-banner .home-banner-text h1 {
+        font-size: 2rem;
+    }
+
+    .home .home-banner .home-banner-text h2 {
+        font-size: 1.2rem;
+    }
+
+    .home .home-banner .home-banner-text .btn-danger {
+        padding: 0.5rem 1.5rem;
+
+    }
+
+    .home .carousel-control-next-icon i,
+    .home .carousel-control-prev-icon i {
+        font-size: 2rem;
+    }
+
+    /* Product Section */
+    .products .up_to_content_h2 {
+        font-size: 0.75rem;
+    }
+
+    /* Special Section */
+    .special {
+        padding: 4rem 0;
+    }
+
+    .special .countdown-container .countdown-counter li {
+        padding: 1rem;
+        width: 20%;
+    }
+
+    /* Testimonial Section */
+    .testimonial .testimonial-wrapper {
+        padding: 1rem;
+    }
+}
+
+@media(max-width:330px) {
+
+    /* Home Section */
+    .home .home-banner .home-banner-text h2 {
+        font-size: 1rem;
+    }
+
+    /* Product Section */
+    .products .up_to_content_h2 {
+        font-size: 0.625rem;
+    }
+}
